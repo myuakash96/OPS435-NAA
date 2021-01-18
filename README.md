@@ -1,5 +1,5 @@
-# hello-world
+# myuakash96
 
 Hello everyone!
 
-This is Md Akash. I would love to learn more about OPS435.
+This is Md Yasin Uddin Akash. I would love to learn more about OPS435. I am in OPS435NAA.
