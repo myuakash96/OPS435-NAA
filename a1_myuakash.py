@@ -83,7 +83,7 @@ def leap_year(argyear):
 			 leap_year('1600') -> 'True'
 			 leap_year('2152') -> 'True'
 	"""
-#Check to see if year is a leap year
+#Checking the script if year is a leap year
 	lyear = argyear % 4
 	if lyear == 0:
 		lyearstatus = "True" # This is a leap year
@@ -106,7 +106,7 @@ def days_in_mon(year):
 	else:
 		feb_max = 28
 
-	#MaxMonth is the maximum number of days per month, (#:# = Month:Day)
+	#MaxMonth is the maximum number of days per month (#:# = Month:Day)
 	MaxMonth = { 1:31, 2:feb_max, 3:31, 4:30, 5:31, 6:30, 7:31, 8:31, 9:30, 10:31, 11:30, 12:31}
 	return(MaxMonth)
 
