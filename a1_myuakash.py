@@ -46,7 +46,7 @@ def valid_date(argdate):
 			 valid_date('20188132') -> 'False'
 			 valid_date('Alphabet') -> 'False'
 	"""
-	#Test if the date entered is actually a date
+	#Testing of the date entered is actually a date
 	if isinstance(argdate, int):
 		argdate = str(argdate)
 	if len(argdate) != 8 or not argdate.isdigit():
