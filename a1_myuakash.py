@@ -17,7 +17,7 @@ import sys
 global argstep
 argstep = ""
 
-# Defines usage function to refer to later
+# Usage function is defined to refer to later
 def usage():
 	"""
 	Prints the usage of the script in a helpful manner
