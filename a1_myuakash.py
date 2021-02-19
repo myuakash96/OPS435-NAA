@@ -126,7 +126,7 @@ def tomorrow(argdate):
 		argyear = int(argdate[0:4])
 		argmonth = int(argdate[4:6])
 		argday = int(argdate[6:])
-		#Resultant will be what day we want to return, which is the next day
+		#Resultant will be what day we want to return, which is the next day.
 		resultday = argday + 1
 
 		#MaxMonth is the maximum number of days per month, (#:# = Month:Day)
