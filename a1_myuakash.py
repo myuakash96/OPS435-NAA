@@ -221,7 +221,7 @@ def dbda(argdate,days):
 	if __name__ != "__main__":
 		argstep = "False"
 	days = round(int(days))
-	#If the days are positive, run the tomorrow function
+	#If the days are positive, run the tomorrow function.
 	if days > 0:
 		if argstep == "True":
 			print(tomorrow(argdate))
