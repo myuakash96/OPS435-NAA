@@ -216,7 +216,7 @@ def dbda(argdate,days):
 			 dbda('20180131','-1') -> '20180130'
 			 dbda('20180228','4') -> '20180304'
 	"""
-		#Rounding Days such that it always returns a whole number
+		#Rounding Days such that it always returns a whole number.
 	global argstep
 	if __name__ != "__main__":
 		argstep = "False"
