@@ -132,8 +132,7 @@ def tomorrow(argdate):
 		#MaxMonth is the maximum number of days per month, (#:# = Month:Day)
 		MaxMonth = days_in_mon(argyear)
 
-		#If the day is above the maximum number of days for the month, cycle to the next month as
-		#the first day,
+		#If the day is above the maximum number of days for the month, cycle to the next month as the first day
 
 		if resultday > MaxMonth[argmonth]:
 			varday = resultday % MaxMonth[argmonth]
