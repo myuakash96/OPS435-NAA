@@ -119,7 +119,7 @@ def tomorrow(argdate):
 	     	 tomorrow('20180131') -> '20180201'
 	    	 tomorrow('20180228') -> '20180301'
 	"""
-	#Function will return tomorrow's date with argument argdate given
+	#Function will return tomorrow's date with argument argdate given.
 	if isinstance(argdate, int):
 		argdate = str(argdate)
 	if valid_date(argdate) == "True":
