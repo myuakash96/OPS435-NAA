@@ -234,7 +234,7 @@ def dbda(argdate,days):
 		if argstep == "False":
 			print(str(tomorrowdate))
 
-	#If the days are negative, yesterday function is ran
+	#If the days are negative, run the yesterday function.
 	elif days < 0:
 		if argstep == "True":
 			print (yesterday(argdate))
