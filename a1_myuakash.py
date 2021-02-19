@@ -100,7 +100,7 @@ def leap_year(argyear):
 def days_in_mon(year):
 	if isinstance(year, str):
 		year = int(year)
-	#Check to see if leap_year exists, if exists, add days to feburary
+	#Check to see if leap_year exists, if exists, add days to feburary.
 	if leap_year(year) == "True":
 		feb_max = 29
 	else:
