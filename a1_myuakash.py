@@ -161,7 +161,7 @@ def yesterday(argdate):
 	yesterday('20180228') -> '20180227'
 	
 	"""
-	#Function returns yesterday's date with argument argdate given
+	#Function returns yesterday's date with argument argdate given.
 	if isinstance(argdate, int):
 		argdate = str(argdate)
 	if valid_date(argdate) == "True":
