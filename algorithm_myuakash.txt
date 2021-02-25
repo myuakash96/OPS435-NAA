@@ -1,15 +1,18 @@
+This is how my code looks as shown below >>>
+
 #!/usr/bin/env python3
 '''
 OPS435 Assignment 1 - Winter 2021
 Program: a1_myuakash.py (replace [Seneca_name] with your Seneca User name)
 Author: myuakash
 The python code in this file (a1_myuakash.py) is original work written by
-"myuakash". No code in this file is copied from any other source
-except those provided by the course instructor, including any person, textbook, or on-line resource. I have not shared this python script with anyone or anything except for submission for grading.
-I understand that the Academic Honesty Policy will be enforced and
+"myuakash". No code in this file is copied from any other source 
+except those provided by the course instructor, including any person, 
+textbook, or on-line resource. I have not shared this python script 
+with anyone or anything except for submission for grading.  
+I understand that the Academic Honesty Policy will be enforced and 
 violators will be reported and appropriate action will be taken.
 '''
-
 import os
 import sys
 
@@ -104,3 +107,46 @@ if __name__ == "__main__":
    new_dob = str(month_name[month - 1])+' '+ str(day)+', '+str(year)
    # step 8
    print(new_dob)
+
+
+> I have used the keywords and functions as follows:-
+
+1. Documentation = I used doctstring – “ documentation text”
+for example = #!/usr/bin/env python3
+"""
+OPS435 Assignment 1 - Winter 2021
+Program: a1_myuakash.py (replace student_id with your Seneca User name)
+Author: "myuakash"
+The python code in this file is original work written by
+Md Yasin Uddin Akash. -------------------------------------continued
+"""
+
+2. Data validation functions: - 
+
+a) size_check(): check if length of obj1  is equals to length of obj2
+
+b) leapyear() : given year is a leap year or not
+
+example:- leap_year() takes a valid year string in 'YYYY' format and returns a true/False statement corelating to if it’s a leap year.
+
+leap_year(‘2019’)  -> ‘False’
+leap_year(‘1600’) -> ‘True’
+
+c) value_check(): the given day is greater than the maximum number of days for a given month
+
+example:- value_check() takes a date string in 'YYYYMMDD' format and returns a true or false statement relaying if it is a valid date.
+value_check ('20171231') -> 'True'
+			value_check ('20188132') -> 'False'
+			 value_check ('Alphabet') -> 'False'
+
+d) import os
+
+e) import sys 
+
+f) global argstep
+
+g) def_sanitize(): convert obj1 into number and remove everything else so if element of obj1 in obj2 then append to results 
+
+h) def range_check(obj1, obj2): check if obj1 lies between the range of obj2 
+
+i) print() : to print the output statement or the result of the arguments.
