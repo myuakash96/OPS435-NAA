@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
-"""
+'''
 OPS435 Assignment 1 - Winter 2021
-Program: a1_myuakash.py (replace student_id with your Seneca User name)
-Author: "myuakash"
-The python code in this file is original work written by
-Md Yasin Uddin Akash. No code in this file is copied from any other source 
-except those provided by the course instructor, including any person, 
-textbook, or on-line resource. I have not shared this python script 
-with anyone or anything except for submission for grading (except git).  
-I understand that the Academic Honesty Policy will be enforced and 
+Program: a1_myuakash.py (replace [Seneca_name] with your Seneca User name)
+Author: myuakash
+The python code in this file (a1_myuakash.py) is original work written by
+"myuakash". No code in this file is copied from any other source
+except those provided by the course instructor, including any person, textbook, or on-line resource. I have not shared this python script with anyone or anything except for submission for grading.
+I understand that the Academic Honesty Policy will be enforced and
 violators will be reported and appropriate action will be taken.
-"""
+'''
 
 import os
 import sys
